@@ -1,0 +1,232 @@
+#img {
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background: url("./mylove.jpg");
+    left: 50px;
+    top: 40px;
+    z-index: 6px;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+}
+
+#div1 {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    z-index: 6;
+    top: -315px;
+    left: 0px;
+    opacity: 0.5;
+    position: relative;
+}
+
+#doanvan8,
+#doanvan9,
+#doanvan10,
+#doanvan11 {
+    width: 100px;
+    display: inline-block;
+    vertical-align: 30px;
+    margin-top: 30px;
+}
+
+#doanvan8 {
+    font-size: 18px;
+    color: green;
+    margin-left: 800px;
+}
+
+#doanvan9 {
+    font-size: 18px;
+    color: green;
+}
+
+#doanvan10 {
+    font-size: 18px;
+    color: green;
+}
+
+#doanvan11 {
+    font-size: 18px;
+    color: green;
+}
+
+#img1 {
+    left: 100px;
+    top: -85px;
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    position: relative;
+    z-index: 6;
+    padding-left: 0px;
+    padding-top: 0px;
+    transition-timing-function: ease;
+}
+
+#img1:hover {
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px rebeccapurple;
+}
+
+#img2 {
+    left: 500px;
+    top: 270px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 6;
+    padding-left: 0px;
+    padding-top: 00px;
+    transition-timing-function: ease;
+}
+
+#img2:hover {
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px yellow;
+}
+
+#img3 {
+    left: 900px;
+    top: 270px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 6;
+    padding-left: 0px;
+    padding-top: 0px;
+    transition-timing-function: ease;
+}
+
+#img3:hover {
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 3px;
+}
+
+#my_border {
+    position: relative;
+    top: -30px;
+    left: 200px;
+    width: 800px;
+    height: 300px;
+    background-color: white;
+}
+
+#vanban1 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#my_border2 {
+    position: relative;
+    top: -100px;
+    left: 200px;
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#my_border3 {
+    background-color: green;
+    width: 120px;
+    height: 40px;
+    left: 10px;
+    top: 0px;
+    position: absolute;
+}
+
+#doanvan4 {
+    color: ivory;
+    font-size: 15px;
+    left: 12px;
+    top: 0px;
+    position: relative;
+}
+
+#my_border4 {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    left: 20px;
+    top: 20px;
+}
+
+#doanvan5 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 0px;
+    position: relative;
+}
+
+#doanvan6 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: -30px;
+    position: relative;
+}
+
+#img4 {
+    left: 580px;
+    top: -180px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(121, 115, 115);
+    position: relative;
+    z-index: 6;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+#doanvan7 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 800px) {
+    #anhnen,
+    #img,
+    .text,
+    #div1,
+    #doanvan8,
+    #doanvan9,
+    #doanvan10,
+    #doanvan11,
+    #img1,
+    #img2,
+    #img3,
+    #my_border,
+    #vanban1,
+    #my_border2,
+    #my_border3,
+    #my_border4,
+    #doanvan4,
+    #doanvan5,
+    #doanvan6,
+    #img4,
+    #doanvan7 {
+        width: 100%;
+        float: none;
+    }
+}
